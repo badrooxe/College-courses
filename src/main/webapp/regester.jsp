@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student regester</title>
+    <title>Student register</title>
     <meta charset="windows-1256">
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.css">
@@ -23,7 +23,7 @@
                    <div class="login">
                    
                     <form class="ui form"  method="POST" action="regesterservlet">
-                        <h1 class="ui header">Student Sign in</h1>
+                        <h1 class="ui header">Student SignUp</h1>
 
 
                         <div class="two fields">
@@ -42,7 +42,7 @@
                           <div class="field">
                          <div class="ui form">
                             <div class="required field">
-                             <label>Gmail</label>
+                             <label>Email</label>
                              <input name="Uemail" type="text" placeholder="Example@gmail.com">
                             </div>
                          </div>
@@ -95,7 +95,8 @@
                            </div>
                    
 
-                           <button class="ui primary button" type="submit" name="signin" tabindex="0">Sign in</button>
+                           <label>have an account? <a href="login.jsp"> sign in</a></label><p>
+                           <button class="ui primary button" type="submit" name="signin" tabindex="0">Sign up</button>
                            <button class="ui button" type="reset" tabindex="0">reset</button>
 
                       </form>
@@ -104,7 +105,7 @@
 
                    <div class="backimage">
 
-                    <p class="par">Create your own compt to get your courses</p>
+                    <p class="par">Create your own account to get your courses..</p>
                     <img class="plate1" src="img/Capture d’écran (168).png" alt="">
                     <img class="plate2" src="img/Capture d’écran (169).png" alt="">
               

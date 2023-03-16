@@ -14,25 +14,24 @@
      <script src="Semantic-UI-CSS-master/semantic.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
      
-    <title>Student Log in</title>
+    <title>Teacher Log in</title>
 </head>
 <body>
     <div class="context">
         
 
-        <h1>Student Log in</h1>
-        <form class="ui form" action="loginservlet" method="POST">
+        <h1>Teacher Log in</h1>
+        <form class="ui form" action="teacherloginservlet" method="POST">
             <div class="field">
-              <label>CNE</label>
-              <input type="text" name="UCNE" placeholder="D123....">
+              <label>Username</label>
+              <input type="text" name="username" placeholder="ABDEL....">
             </div>
             <div class="field">
               <label>Password</label>
-              <input type="password" name="UCNI" placeholder="password">
+              <input type="password" name="password" placeholder="password">
             </div>
             <div class="field">
               <div class="ui">
-                <label>Don't have an account? <a href="regester.jsp"> sign up</a></label>
               </div>
             </div>
             <button class="ui primary button" type="submit">Log in</button>

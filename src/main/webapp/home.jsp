@@ -22,8 +22,8 @@
     <div class="context">
         <img class="logoimg" src="img/logo1.png" alt="">
         <h1>Welcom to CollegeCourses</h1>
-        <button class="ui  button "><a href="login.jsp">I'am Student</a></button>
-        <button class="ui  button "><a href="">I'am Teacher</a></button>
+        <button class="ui  button "><a href="login.jsp">I'am a Student</a></button>
+        <button class="ui  button "><a href="teacherlogin.jsp">I'am a Teacher</a></button>
     </div>
 
 
