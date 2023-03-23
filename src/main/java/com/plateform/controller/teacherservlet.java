@@ -51,11 +51,11 @@ public class teacherservlet extends HttpServlet {
 			Timestamp date = new Timestamp(System.currentTimeMillis());
 			InputStream inputStream =null;
 			
-			if (file != null) {
-			long filesize = file.getSize();
-			String fileContent = file.getContentType();
-			inputStream = file.getInputStream();
-			}
+			//if (file != null) {
+			//long filesize = file.getSize();
+			//String fileContent = file.getContentType();
+			//inputStream = file.getInputStream();
+			//}
 			Class.forName("com.mysql.jdbc.Driver");
 			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/coursescollege?useSSL=false","root","");
 			PreparedStatement pst=con.prepareStatement("INSERT INTO `category`(`type_of`, `name_cours`, `title_cours`, `doc_file`, `filiere`, `semester`, `id_professor`, `date_info`) VALUES (?,?,?,?,?,?,?,?)");

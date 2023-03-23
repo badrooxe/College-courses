@@ -77,11 +77,12 @@
                 <%=rs1.getString("name_cours")%>
               </div>
               <div class="description">
-                <%=rs1.getString("title_cours")%>
+                 <img src="img/pdf.png" alt="">
+                 <a href="files/<%=rs1.getString("doc_file")%>" ><%=rs1.getString("title_cours")%></a>
               </div>
             </div>
             <div class="extra content">
-             
+            
           <div class="ui three buttons">
                 <button class="ui button"><a href="DeleteCategory?id=<%=rs1.getString("id_category")%>">Delete</a></button>
                 <div class="or" data-text="ou"></div>
@@ -153,17 +154,6 @@
                            <option value="S6">S6</option>
                          </select>
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                      <button class="ui primary button" type="submit" name="upload" tabindex="0">upload</button>       
                           
             </form>
