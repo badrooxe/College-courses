@@ -32,10 +32,16 @@
             </div>
             <div class="field">
               <div class="ui">
-                <label>Don't have an account? <a href="regester.jsp"> sign up</a></label>
+                <a href="forgotpassword.jsp">forgot password?</a>
               </div>
             </div>
             <button class="ui primary button" type="submit">Log in</button>
+            <p>
+            <div class="field">
+              <div class="ui">
+                <label>Don't have an account? <a href="regester.jsp"> sign up</a></label>
+              </div>
+            </div>
           </form>
 
             
