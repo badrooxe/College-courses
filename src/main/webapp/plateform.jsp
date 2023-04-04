@@ -11,7 +11,7 @@
     <meta charset="windows-1256">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.css">
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.css">
     <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
     <script src="Semantic-UI-CSS-master/semantic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">

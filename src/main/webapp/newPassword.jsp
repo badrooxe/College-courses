@@ -24,8 +24,7 @@
 </style>
 </head>
 <body oncontextmenu='return false' class='snippet-body bg-info'>
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
 	<div>
 		<!-- Container containing all contents -->
 		<div class="container">
@@ -44,7 +43,7 @@
 								<!-- User Name Input -->
 								<div class="form-group row justify-content-center px-3">
 									<div class="col-9 px-0">
-										<input type="text" name="password" placeholder="&#xf084; &nbsp; New Password"
+										<input type="password" name="password" placeholder="&#xf084; &nbsp; New Password"
 											class="form-control border-info placeicon">
 									</div>
 								</div>
